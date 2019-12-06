@@ -1,0 +1,72 @@
+.container {
+  font-size: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  width: 900px;
+}
+
+.site-navigation {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin-bottom: 105px;
+}
+
+.site-navigation li {
+  display: inline-block;
+  padding: 75px 65px 0px 65px;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+
+#color-letter {
+  color: rgb(37, 180, 245);
+}
+.format {
+  width: 420px;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 140px;
+}
+
+.format:nth-last-child(-n + 3) {
+  margin-bottom: 60px;
+}
+
+.format:not(:nth-child(2n)) {
+  margin-right: 60px;
+}
+
+.format {
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+
+.text-color {
+  color: rgb(180, 173, 158);
+}
+.text-size {
+  font-size: 30px;
+}
+.my-button {
+  display: inline-block;
+  padding: 25px 40px;
+  border: 1px solid rgb(98, 98, 98);
+  background-color: #fff;
+  color: rgb(98, 98, 98);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-button:focus {
+  outline: none;
+}
