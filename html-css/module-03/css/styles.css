@@ -15,12 +15,15 @@ section {
   text-transform: uppercase;
   padding: 0;
   font-size: 0px;
-  margin: 75px 0px 105px;
+  padding: 75px 0px 105px 120px;
 }
 
 .site-navigation li {
   display: inline-block;
-  margin-left: 125px;
+}
+
+.site-navigation li:not(:last-child) {
+  margin-right: 120px;
 }
 
 .site-navigation a {
@@ -37,6 +40,18 @@ section {
 section {
   font-size: 0px;
 }
+
+.format p,
+.format h2 {
+  margin: 0;
+}
+
+.format img,
+.format p,
+.format h2 {
+  margin-bottom: 20px;
+}
+
 .format {
   width: 420px;
   height: auto;
