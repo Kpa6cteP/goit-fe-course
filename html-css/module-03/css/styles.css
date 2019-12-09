@@ -1,20 +1,26 @@
+body {
+  margin: 0;
+}
+section {
+  padding-bottom: 60px;
+}
+
 .container {
-  font-size: 0px;
   margin: 0 auto;
-  padding: 0px;
   width: 900px;
 }
 
 .site-navigation {
   display: inline-block;
-  vertical-align: middle;
   text-transform: uppercase;
-  margin-bottom: 105px;
+  padding: 0;
+  font-size: 0px;
+  margin: 75px 0px 105px;
 }
 
 .site-navigation li {
   display: inline-block;
-  padding: 75px 65px 0px 65px;
+  margin-left: 125px;
 }
 
 .site-navigation a {
@@ -24,17 +30,23 @@
   color: rgb(98, 98, 98);
 }
 
-#color-letter {
+.site-navigation a:hover {
   color: rgb(37, 180, 245);
+}
+
+section {
+  font-size: 0px;
 }
 .format {
   width: 420px;
   height: auto;
   display: inline-block;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
   margin-bottom: 140px;
 }
 
-.format:nth-last-child(-n + 3) {
+.format:nth-last-child(-n + 4) {
   margin-bottom: 60px;
 }
 
@@ -42,31 +54,26 @@
   margin-right: 60px;
 }
 
-.format {
-  font-size: 14px;
-  color: rgb(98, 98, 98);
-}
-
 .text-color {
   color: rgb(180, 173, 158);
 }
-.text-size {
-  font-size: 30px;
-}
+
 .my-button {
-  display: inline-block;
+  display: block;
   padding: 25px 40px;
   border: 1px solid rgb(98, 98, 98);
   background-color: #fff;
   color: rgb(98, 98, 98);
   font-size: 20px;
   cursor: pointer;
-}
-
-.text-center {
-  text-align: center;
+  margin: 0 auto;
 }
 
 .my-button:focus {
   outline: none;
+}
+
+.my-button:hover {
+  color: rgb(37, 180, 245);
+  border: 2px solid rgb(37, 180, 245);
 }
