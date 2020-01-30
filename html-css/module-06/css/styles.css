@@ -97,6 +97,12 @@ img {
 .servises {
   margin-bottom: 95px;
 }
+
+.container__servises {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+}
 .section-h2 {
   display: flex;
   flex-direction: column;
@@ -148,6 +154,7 @@ img {
   align-content: space-between;
   margin: 0 auto;
   height: 240px;
+  padding: 0;
 }
 
 .serv-li {
