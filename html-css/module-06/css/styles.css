@@ -92,6 +92,11 @@ img {
   transition: 200ms linear;
 }
 
+/* main */
+
+main {
+  margin-bottom: 85px;
+}
 /* section servises */
 
 .servises {
@@ -213,9 +218,9 @@ img {
 
 /* section team */
 
-.team {
+/* .team {
   margin-bottom: 85px;
-}
+} */
 
 .mb47 {
   margin-bottom: 47px;
@@ -307,6 +312,7 @@ img {
 }
 
 .logo {
+  display: block;
   height: 56px;
   width: 56px;
   cursor: pointer;
@@ -330,6 +336,7 @@ img {
 }
 .instagram {
   background-image: url(../icon/instagram.png);
+  margin-right: 0;
 }
 
 .team__block__item:hover .card__team {
