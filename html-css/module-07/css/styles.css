@@ -62,7 +62,8 @@ img {
 /* header */
 
 .header-block {
-  margin: 50px 0 115px;
+  padding-top: 50px;
+  margin-bottom: 115px;
 }
 .nav {
   margin: 0 auto;
@@ -149,10 +150,8 @@ img {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  align-items: space-between;
 }
 .section-first__li {
-  position: relative;
   width: 290px;
   min-height: 184px;
   padding-top: 70px;
@@ -163,8 +162,7 @@ img {
   content: "";
   width: 72px;
   height: 72px;
-  position: absolute;
-  top: 0;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
   border-style: solid;
@@ -281,7 +279,7 @@ img {
   outline-color: #008000;
 }
 
-.singup-cont input:invalid {
+.signup-cont input:invalid {
   outline-color: #ff0000;
 }
 
