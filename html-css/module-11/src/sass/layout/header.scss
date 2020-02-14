@@ -1,0 +1,134 @@
+.header-section {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top, $gradient-clor-first, $gradient-clor-next),
+    url('../../images/vulture.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  padding-top: 40px;
+  margin-bottom: 48px;
+}
+
+.page-nav {
+  @include between-flex;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  &__site-logo {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: $main-font-monstarat-bold;
+    color: $secondary-bg-color-white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+}
+
+.menu-nav {
+  @include between-flex;
+  width: 620px;
+  font-family: $main-font-monstarat;
+  font-size: 14px;
+  letter-spacing: 0;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+
+  &__link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: $secondary-bg-color-white;
+    position: relative;
+
+    &:hover {
+      color: $secondary-bg-color;
+      -webkit-transition: 200ms linear;
+      -o-transition: 200ms linear;
+      transition: 200ms linear;
+    }
+  }
+
+  &__link-icon::after {
+    @include pseudo;
+    width: 100%;
+    background-color: $secondary-bg-color;
+    padding-top: 4px;
+    bottom: -12px;
+    position: absolute;
+    opacity: 0;
+  }
+
+  &__item:hover .menu-nav__link-icon::after {
+    opacity: 1;
+    -webkit-transition: 200ms linear;
+    -o-transition: 200ms linear;
+    transition: 200ms linear;
+  }
+
+  &__icon {
+    width: 18px;
+    height: 20px;
+    fill: $secondary-bg-color-white;
+    text-align: center;
+  }
+}
+
+.block-head {
+  padding: 0;
+  margin: 0;
+
+  &__share {
+    padding: 0;
+    margin: 0;
+    font-size: 72px;
+    font-family: $main-font-kaushanscrip;
+    font-weight: 400;
+    color: $secondary-bg-color-white;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 170px;
+    margin-bottom: 64px;
+  }
+
+  &__find {
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+    font-family: $main-font-monstarat-bold;
+    color: $secondary-bg-color-white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.933;
+    text-align: center;
+    margin-bottom: 126px;
+  }
+
+  &__button {
+    height: 40px;
+    width: 160px;
+    margin: 0 auto;
+    display: block;
+    font-size: 14px;
+    font-family: $main-font-monstarat;
+    color: $secondary-bg-color-white;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2.2;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+}
